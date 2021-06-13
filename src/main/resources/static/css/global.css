@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.mt-10 { margin-top: 10px !important; }
+.mt-100 { margin-top: 100px !important; }
+.mt-250 { margin-top: 250px !important; }
+.w-30 { width: 30px !important; }
+.w-50 { width: 50px !important; }
+.w-80 { width: 80px !important; }
+.w-100 { width: 100px !important; }
+.w-150 { width: 150px !important; }
+.w-200 { width: 200px !important; }
+.w-300 { width: 300px !important; }
+.h-50 { height: 50px !important; }
+.h-150 { height: 150px !important; }
+.h-200 { height: 200px !important; }
+.h-29 { height: 29px; }
+
+canvas { height: 400px; }
+
+#sidebar { z-index: 100; }
+
+.custom-bg { background-color: #252525 !important; }
+
+a.collapse-item:hover { color: #3a3b45! important }
+a.collapse-item.active { color: #4e73df! important }
+
+i.gj-icon { top: 5px !important; }
