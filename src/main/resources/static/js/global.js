@@ -1,5 +1,13 @@
 'use strict';
 
+var test1 = function() {
+	alert('test1');
+};
+
+const test2 = () => {
+	alert('test2');
+};
+
 const setCookie = (name, value, exp) => {
 	const date = new Date();
 	date.setTime(date.getTime() + exp * 24 * 60 * 60 * 1000);
@@ -8,7 +16,7 @@ const setCookie = (name, value, exp) => {
 
 const getCookie = (name) => {
 	const value = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-	return value? value[2] : null;
+	return value ? value[2] : null;
 };
 
 const delCookie = (name) => {
@@ -117,7 +125,7 @@ const isName = (value = '') => {
 const isEmail = (value = '') => {
 	const reg = /^[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_\.]?[0-9a-zA-Z])*\.[a-zA-Z]{2,3}$/i;
 
-	return reg.test(value);	
+	return reg.test(value);
 };
 
 const isPassword = (value = '') => {

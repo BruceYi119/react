@@ -41,3 +41,4 @@ class Hello extends React.Component {
 
 ReactDOM.render(<><TestBtn /></>, document.querySelector('#root'));
 ReactDOM.render(<><Hello toWhat="World" /></>, document.querySelector('#root1'));
+ReactDOM.render(<><TestBtn /><TestBtn /><Hello toWhat="World" /><TestBtn /><TestBtn /></>, document.querySelector('#root5'));
